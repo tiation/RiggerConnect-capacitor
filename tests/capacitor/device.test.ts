@@ -1,21 +1,54 @@
-import { Device } from '@capacitor/device';
-import { Network } from '@capacitor/network';
-import { Camera, CameraResultType, CameraSource } from '@capacitor/camera';
-import { Geolocation } from '@capacitor/geolocation';
-import { Preferences } from '@capacitor/preferences';
+import { CameraResultType, CameraSource } from '@capacitor/camera';
 
-// Mock Capacitor plugins
-jest.mock('@capacitor/device');
-jest.mock('@capacitor/network');
-jest.mock('@capacitor/camera');
-jest.mock('@capacitor/geolocation');
-jest.mock('@capacitor/preferences');
+// Mock Capacitor plugins with factory functions
+jest.mock('@capacitor/device', () => ({
+  Device: {
+    getInfo: jest.fn(),
+    getId: jest.fn(),
+    getBatteryInfo: jest.fn(),
+    getLanguageCode: jest.fn(),
+  },
+}));
 
-const mockDevice = Device as jest.Mocked<typeof Device>;
-const mockNetwork = Network as jest.Mocked<typeof Network>;
-const mockCamera = Camera as jest.Mocked<typeof Camera>;
-const mockGeolocation = Geolocation as jest.Mocked<typeof Geolocation>;
-const mockPreferences = Preferences as jest.Mocked<typeof Preferences>;
+jest.mock('@capacitor/network', () => ({
+  Network: {
+    getStatus: jest.fn(),
+    addListener: jest.fn(),
+  },
+}));
+
+jest.mock('@capacitor/camera', () => ({
+  Camera: {
+    getPhoto: jest.fn(),
+    requestPermissions: jest.fn(),
+  },
+}));
+
+jest.mock('@capacitor/geolocation', () => ({
+  Geolocation: {
+    getCurrentPosition: jest.fn(),
+    watchPosition: jest.fn(),
+    clearWatch: jest.fn(),
+    requestPermissions: jest.fn(),
+  },
+}));
+
+jest.mock('@capacitor/preferences', () => ({
+  Preferences: {
+    get: jest.fn(),
+    set: jest.fn(),
+    remove: jest.fn(),
+    clear: jest.fn(),
+    keys: jest.fn(),
+  },
+}));
+
+// Import the mocked modules
+const { Device } = require('@capacitor/device');
+const { Network } = require('@capacitor/network');
+const { Camera } = require('@capacitor/camera');
+const { Geolocation } = require('@capacitor/geolocation');
+const { Preferences } = require('@capacitor/preferences');
 
 describe('Capacitor Device Integration', () => {
   beforeEach(() => {
