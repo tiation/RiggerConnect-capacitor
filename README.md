@@ -157,6 +157,22 @@ const config: CapacitorConfig = {
 export default config;
 ```
 
+## 🔗 Related Repositories
+
+### Core Platform Components
+
+| Repository | Platform | Description | GitHub SSH URL |
+|------------|----------|-------------|----------------|
+| **RiggerConnect-web** | Web | Business-focused recruitment platform | `git@github.com:tiation/RiggerConnect-web.git` |
+| **RiggerConnect-android** | Android | Mobile business management app | `git@github.com:tiation/RiggerConnect-android.git` |
+| **RiggerConnect-ios** | iOS | Mobile business management app | `git@github.com:tiation/RiggerConnect-ios.git` |
+| **RiggerConnect-capacitor** | Cross-platform | Cross-platform mobile framework | `git@github.com:tiation/RiggerConnect-capacitor.git` |
+| **RiggerHub-web** | Web | Worker-focused job search platform | `git@github.com:tiation/RiggerHub-web.git` |
+| **RiggerHub-android** | Android | Mobile worker app | `git@github.com:tiation/RiggerHub-android.git` |
+| **RiggerHub-ios** | iOS | Mobile worker app | `git@github.com:tiation/RiggerHub-ios.git` |
+| **RiggerBackend** | API/Backend | Core backend services and APIs | `git@github.com:tiation/RiggerBackend.git` |
+| **RiggerShared** | Multi-platform | Shared libraries and components | `git@github.com:tiation/RiggerShared.git` |
+
 ## 🧪 Testing
 
 ### Test Stack
@@ -298,6 +314,18 @@ We welcome contributions from the community! Please see our [Contributing Guidel
 | **RiggerHub-android** | Android | Native Android operations management application | `git@github.com:tiation/RiggerHub-android.git` |
 | **RiggerHub-ios** | iOS | Native iOS operations management application | `git@github.com:tiation/RiggerHub-ios.git` |
 | **RiggerShared** | Multi-platform | Shared libraries, components, and utilities | `git@github.com:tiation/RiggerShared.git` |
+
+## 👥 Contact & Team
+
+### Project Leaders
+
+**Jack Jonas** - Karratha Crane Operator & Industry Expert  
+📧 [jackjonas95@gmail.com](mailto:jackjonas95@gmail.com)  
+🏗️ **Industry Expertise**: Seasoned rigger, crane operator, and heavy vehicle mechanic based in Karratha, Western Australia. Jack's extensive field experience ensures this cross-platform mobile application addresses the real-world networking and career development needs of riggers who require reliable mobile tools that work seamlessly across different devices and platforms in challenging industrial environments.
+
+**Tia** - ChaseWhiteRabbit NGO Technical Leadership  
+📧 [tiatheone@protonmail.com](mailto:tiatheone@protonmail.com)  
+🌟 **NGO Mission-Driven Leadership**: Swedish software developer and founder of ChaseWhiteRabbit NGO, dedicated to creating ethical technology solutions that empower blue-collar workers. Tia's mission-driven approach ensures this cross-platform app provides construction industry professionals with powerful networking tools while maintaining the organization's commitment to community impact and worker welfare.
 
 ## 🤝 Project Team & Purpose
 
