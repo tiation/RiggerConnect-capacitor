@@ -285,13 +285,55 @@ We welcome contributions from the community! Please see our [Contributing Guidel
 
 ## 🔗 Related Repositories
 
-### Rigger Ecosystem
-- **[RiggerBackend](https://github.com/tiaastor/RiggerBackend/)**: Node.js API and microservices
-- **[RiggerConnect-web](https://github.com/tiaastor/RiggerConnect-web/)**: React web application
-- **[RiggerConnect-ios](https://github.com/tiaastor/RiggerConnect-ios/)**: Native iOS application
-- **[RiggerConnect-android](https://github.com/tiaastor/RiggerConnect-android/)**: Native Android application
-- **[RiggerHub-web](https://github.com/tiaastor/RiggerHub-web/)**: Business portal web application
-- **[RiggerShared](https://github.com/tiaastor/RiggerShared/)**: Shared libraries and utilities
+### Core Platform Components
+
+| Repository | Platform | Description | GitHub SSH URL |
+|------------|----------|-------------|----------------|
+| **RiggerBackend** | API/Backend | Core backend services and APIs for the Rigger ecosystem | `git@github.com:tiation/RiggerBackend.git` |
+| **RiggerConnect-web** | Web | Professional networking platform for construction workers | `git@github.com:tiation/RiggerConnect-web.git` |
+| **RiggerConnect-android** | Android | Native Android mobile networking application | `git@github.com:tiation/RiggerConnect-android.git` |
+| **RiggerConnect-capacitor** | Cross-platform | Cross-platform mobile app built with Ionic Capacitor | `git@github.com:tiation/RiggerConnect-capacitor.git` |
+| **RiggerConnect-ios** | iOS | Native iOS mobile networking application | `git@github.com:tiation/RiggerConnect-ios.git` |
+| **RiggerHub-web** | Web | Operations management hub for business users | `git@github.com:tiation/RiggerHub-web.git` |
+| **RiggerHub-android** | Android | Native Android operations management application | `git@github.com:tiation/RiggerHub-android.git` |
+| **RiggerHub-ios** | iOS | Native iOS operations management application | `git@github.com:tiation/RiggerHub-ios.git` |
+| **RiggerShared** | Multi-platform | Shared libraries, components, and utilities | `git@github.com:tiation/RiggerShared.git` |
+
+## 🤝 Project Team & Purpose
+
+This project is part of a broader suite of repositories aimed at supporting the **transient rigging and heavy lifting industry** in Western Australia and beyond.
+
+🔗 **Related Repositories**:
+
+* [`RiggerConnect-web`](https://github.com/ChaseWhiteRabbit/RiggerConnect-web) - Professional networking platform for construction workers
+* [`RiggerConnect-android`](https://github.com/ChaseWhiteRabbit/RiggerConnect-android) - Native Android mobile networking application
+* [`RiggerConnect-ios`](https://github.com/ChaseWhiteRabbit/RiggerConnect-ios) - Native iOS mobile networking application
+* [`RiggerConnect-capacitor`](https://github.com/ChaseWhiteRabbit/RiggerConnect-capacitor) - Cross-platform mobile app built with Ionic Capacitor
+* [`RiggerHub-web`](https://github.com/ChaseWhiteRabbit/RiggerHub-web) - Operations management hub for business users
+* [`RiggerHub-android`](https://github.com/ChaseWhiteRabbit/RiggerHub-android) - Native Android operations management application
+* [`RiggerHub-ios`](https://github.com/ChaseWhiteRabbit/RiggerHub-ios) - Native iOS operations management application
+* [`RiggerShared`](https://github.com/ChaseWhiteRabbit/RiggerShared) - Shared libraries, components, and utilities
+* [`RiggerBackend`](https://github.com/ChaseWhiteRabbit/RiggerBackend) - Core backend services and APIs for the Rigger ecosystem
+
+📬 **Contact**:
+For questions, ideas, or collaboration inquiries, please reach out to:
+
+* **Jack Jonas** – [jackjonas95@gmail.com](mailto:jackjonas95@gmail.com)
+* **Tia** – [tiatheone@protonmail.com](mailto:tiatheone@protonmail.com)
+
+---
+
+### 🙌 About the Founders
+
+**Jack Jonas** is a seasoned rigger, crane operator, and heavy vehicle mechanic based in Karratha, Western Australia. His firsthand experience in the field shapes the practical backbone of this platform.
+
+**Tia** is a Swedish software developer and founder of the NGO **ChaseWhiteRabbit**, which is dedicated to building inclusive, systemic solutions to complex challenges.
+
+Together, they created this SaaS platform to:
+
+* Help connect riggers, doggers, and crane operators to real work opportunities.
+* Support better logistics, transparency, and compliance in the field.
+* Fund and sustain the good work being done by **ChaseWhiteRabbit** in disadvantaged communities.
 
 ### ChaseWhiteRabbit NGO
 This project is proudly developed under the ChaseWhiteRabbit NGO, dedicated to creating ethical, enterprise-grade solutions for the construction industry.
